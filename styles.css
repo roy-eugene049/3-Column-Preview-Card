@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.main-container {
+    padding: 120px 130px;
+
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.container h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.container img {
+    padding-top: 10px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 10px 0 0 10px;
+}
+
+.sedans h1 {
+    padding-top: 20px;
+    color: white;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+.suvs h1 {
+    padding-top: 20px;
+    color: white;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 0 10px 10px 0;
+}
+
+.luxury h1 {
+    padding-top: 20px;
+    color: white;
+}
+
+.sedans p {
+    padding-bottom: 70px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.sedan-button {
+    background-color: white;
+    padding: 10px 20px;
+    max-width: 130px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs p {
+    padding-bottom: 70px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.suvs-button {
+    background-color: white;
+    padding: 10px 20px;
+    max-width: 130px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    color: hsl(184, 100%, 22%);
+}
+
+
+.luxury p {
+    padding-bottom: 70px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.luxury-button {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    max-width: 130px;
+    text-align: center;
+    cursor: pointer;
+    color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 625px) {
+    .container {
+        display: block;
+        min-width: 325px;
+        margin: 0 auto;
+    }
+
+    .sedans {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 10px 10px;
+    }
+}
